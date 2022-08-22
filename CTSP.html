@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="ClerF.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chi Tiết Sản Phẩm</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="header__logo">
+                        <a href="" title="CleverFood">CLERVERFOOD</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="header__menu">
+                        <nav>
+                            <ul>
+                                <li><a href="LandingPage.html" title="Trang chủ" class="active">Trang chủ</a></li>
+                                <li><a href="GT.html" title="Giới thiệu">Giới thiệu</a></li>
+                                <li><a href="CH.html" title="Cửa hàng">Cửa hàng</a></li>
+                                <li><a href="KT.html" title="Kiến thức">Kiến thức</a></li>
+                                <li><a href="LH.html" title="Liên hệ">Liên hệ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="header__lang">
+                        <div>
+                            <i class="fas fa-search"></i>
+                            <span class="oi oi-magnifying-glass"></span>
+                            <i class="fas fa-user"></i>
+                            <i class="fas fa-cart-arrow-down"></i>
+                            <i>Tiếng việt</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div id="main">
+                        <div id="content">
+                            <div id="image">
+                                <button onclick="prev()" id="prevButton"><i class="fa-solid fa-chevron-left"></i></button>
+                                <img id="anh" src="Anh/product-1-470x470.jpg" alt="">
+                                <button onclick="next()" id="nextButton"><i class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div id="thumb">
+                            <ul>
+                                <li><a href="javascipt:void(0)"><img src="Anh/product-1-470x470.jpg" alt="" class="actived"></a></li>
+                                <li><a href="javascipt:void(0"><img src="Anh/product-11-470x470.jpg" alt=""></a></li>
+                                <li><a href="javascipt:void(0"><img src="Anh/product-15-470x470.jpg" alt=""></a></li>
+                                <li><a href="javascipt:void(0"><img src="Anh/product-12-470x470.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="th-ch">
+                        <ul>
+                            <li><a href="#">trang chủ</a></li>
+                            <p>/</p>
+                            <li><a href="#">cửa hàng</a></li>
+                        </ul>
+                    </div>
+                    <h4>Táo</h4>
+                    <div class="gach">
+
+                    </div>
+                    <div class="gia">
+                        <p><b>150.000đ</b></p>
+                        <small><b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Alias, aspernatur architecto ratione veniam unde nam nemo et atque saepe in nesciunt ducimus impedit aperiam quisquam. Saepe autem delectus veritatis laborum.</small>
+                        <br>
+                    </div>
+                    <div class="add">
+                        <input type="number" name="" id="">
+                        <button>THÊM VÀO GIỎ</button>
+                    </div>
+                    <div class="paidnship">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>Tính phí ship tự dộng</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-ghn.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-ghtk.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-ninja-van.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-shipchung.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-vn-post.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-viettle-post.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>Thanh toán</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-acb.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-techcombank.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-vib.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-vcb.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-paypal.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-4">
+                                                <a href="#"><img src="Anh/logo-mastercard.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="same-prod">
+                <h4>sản phẩm tương tự</h4>
+                <div class="gach2">
+                </div>
+                <div class="row">
+                    <!-- <button onclick="" id="prevButton"><i class="fa-solid fa-chevron-left"></i></button> -->
+                    <div class="col-3">
+                        <img src="Anh/product-11-470x470.jpg" alt="">
+                        <p><b>Dừa</b></p>
+                        <p style="color: #86ba09">150.000đ</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="Anh/product-11-470x470.jpg" alt="">
+                        <p><b>Dừa</b></p>
+                        <p style="color: #86ba09">150.000đ</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="Anh/product-11-470x470.jpg" alt="">
+                        <p><b>Dừa</b></p>
+                        <p style="color: #86ba09">150.000đ</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="Anh/product-11-470x470.jpg" alt="">
+                        <p><b>Dừa</b></p>
+                        <p style="color: #86ba09">150.000đ</p>
+                    </div>
+                    <!-- <button onclick="" id="nextButton"><i class="fa-solid fa-chevron-right"></i></button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <div class="bg-footer">
+            <div class="dangky">
+                <div class="dangky_img">
+                  <img src="Anh/bg-footer8.jpg" class="d-block w-100" alt="" />
+                  <div class="dangky_input">
+                    <h4>đăng ký để nhận cập nhật</h4>
+                    <small>để lại email để không bỏ lỡ bất kỳ thông báo nào</small>
+                    <div class="search_input">
+                      <input type="text" id="email" placeholder="Email" />
+                      <div class="search_icon_input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="ft-logo">
+                        <img src="Anh/logo-new.png" alt="">
+                    </div>
+                    <p>An Giải, Đồng Kỵ, Từ Sơn, Bắc Ninh</p>
+                    <p>0987654321</p>
+                    <p>something@gmail.com</p>
+                    <p>sdasdasdasd</p>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>Menu</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="LandingPage.html">Trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="GT.html">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="CH.html">Cửa hàng</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="KT.html">Kiến thức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="LH.html">Liên hệ</a>
+                                  </li>
+                              </ul>
+                        </div>
+                        <div class="col-6" id="sp">
+                            <h3>sản phẩm</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Rau củ</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Trái cây</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Đồ uống</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Đồ khô</a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4" id="insta">
+                    <h3>Instagram</h3>
+                    <p>Unable to communicate with Instagram</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("a > img").click(function(){
+                img = $(this).attr("src");
+                $("#image > img").attr({'src':img});
+                $("a > img").removeClass('actived');
+                $(this).addClass('actived');
+            });
+        });
+    </script>
+    <script>
+        var images = [
+        "Anh/product-1-470x470.jpg",
+        "Anh/product-11-470x470.jpg",
+        "Anh/product-15-470x470.jpg",
+        "Anh/product-12-470x470.jpg"
+    ];
+    var num = 0;
+    function next() {
+        var slider = document.getElementById("anh");
+        num++;
+        if(num >= images.length) {
+            num = 0;
+        }
+        slider.src = images[num];
+    }
+
+    function prev() {
+        var slider = document.getElementById("anh");
+        num--;
+        if(num < 0) {
+            num = images.length-1;
+        }
+        slider.src = images[num];
+    }
+    </script>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
